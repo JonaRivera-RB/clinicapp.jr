@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		130CC97B204BB151006151BD /* createdAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130CC97A204BB151006151BD /* createdAccountVC.swift */; };
+		13149E15209ABAF800B2A5D6 /* especialidadesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13149E14209ABAF800B2A5D6 /* especialidadesVC.swift */; };
+		13149E19209ABC5A00B2A5D6 /* especialidadesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13149E18209ABC5A00B2A5D6 /* especialidadesCell.swift */; };
+		13149E1D209ABE9800B2A5D6 /* especialidad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13149E1C209ABE9800B2A5D6 /* especialidad.swift */; };
+		131FB2D02064A44A00181458 /* clinicaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131FB2CF2064A44A00181458 /* clinicaVC.swift */; };
+		131FB2D2206956EE00181458 /* fondoBtnReviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131FB2D1206956EE00181458 /* fondoBtnReviews.swift */; };
+		131FB2D42069D8F100181458 /* reviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131FB2D32069D8F100181458 /* reviewVC.swift */; };
+		131FB2D6206C4E7600181458 /* reviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131FB2D5206C4E7600181458 /* reviewCell.swift */; };
+		131FB2D8206C4F2500181458 /* reviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131FB2D7206C4F2500181458 /* reviews.swift */; };
+		132313822086F05600A0E947 /* especialidades.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132313812086F05600A0E947 /* especialidades.swift */; };
+		134B85282050E3B400F9303C /* yoDatos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134B85272050E3B400F9303C /* yoDatos.swift */; };
+		134B852A2050E80C00F9303C /* idUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134B85292050E80C00F9303C /* idUser.swift */; };
+		1385709120982A0D005403BD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1385709020982A0D005403BD /* Default-568h@2x.png */; };
+		139B91ED2050F3B900D495A1 /* clinicasCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139B91EC2050F3B900D495A1 /* clinicasCell.swift */; };
+		13A01383204B0685006E9609 /* DataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A01382204B0685006E9609 /* DataServices.swift */; };
+		13A01385204B44BC006E9609 /* authVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A01384204B44BC006E9609 /* authVC.swift */; };
+		13A01389204B45A6006E9609 /* InsertTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A01388204B45A6006E9609 /* InsertTextField.swift */; };
+		13A0138B204B4B96006E9609 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A0138A204B4B96006E9609 /* ShadowView.swift */; };
+		13A0138D204B5C18006E9609 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A0138C204B5C18006E9609 /* AuthService.swift */; };
+		13ECA8C2204AEB4B00FB0986 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ECA8C1204AEB4B00FB0986 /* AppDelegate.swift */; };
+		13ECA8C4204AEB4B00FB0986 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ECA8C3204AEB4B00FB0986 /* FirstViewController.swift */; };
+		13ECA8C6204AEB4B00FB0986 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ECA8C5204AEB4B00FB0986 /* SecondViewController.swift */; };
+		13ECA8C9204AEB4B00FB0986 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13ECA8C7204AEB4B00FB0986 /* Main.storyboard */; };
+		13ECA8CB204AEB4B00FB0986 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13ECA8CA204AEB4B00FB0986 /* Assets.xcassets */; };
+		13ECA8CE204AEB4B00FB0986 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13ECA8CC204AEB4B00FB0986 /* LaunchScreen.storyboard */; };
+		13ECA8DE204AF1AE00FB0986 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13ECA8DD204AF1AE00FB0986 /* GoogleService-Info.plist */; };
+		13F60992204DABBB00D69EBA /* clinicas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F60991204DABBB00D69EBA /* clinicas.swift */; };
+		13F60994204E2C1600D69EBA /* yoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F60993204E2C1600D69EBA /* yoVC.swift */; };
+		9242BBA316D2BC6CE2489310 /* Pods_redSocial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DC542CBE79631B40FC74EC /* Pods_redSocial.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		130CC97A204BB151006151BD /* createdAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createdAccountVC.swift; sourceTree = "<group>"; };
+		13149E14209ABAF800B2A5D6 /* especialidadesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = especialidadesVC.swift; sourceTree = "<group>"; };
+		13149E18209ABC5A00B2A5D6 /* especialidadesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = especialidadesCell.swift; sourceTree = "<group>"; };
+		13149E1C209ABE9800B2A5D6 /* especialidad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = especialidad.swift; sourceTree = "<group>"; };
+		131FB2CF2064A44A00181458 /* clinicaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clinicaVC.swift; sourceTree = "<group>"; };
+		131FB2D1206956EE00181458 /* fondoBtnReviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fondoBtnReviews.swift; sourceTree = "<group>"; };
+		131FB2D32069D8F100181458 /* reviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reviewVC.swift; sourceTree = "<group>"; };
+		131FB2D5206C4E7600181458 /* reviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reviewCell.swift; sourceTree = "<group>"; };
+		131FB2D7206C4F2500181458 /* reviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reviews.swift; sourceTree = "<group>"; };
+		132313812086F05600A0E947 /* especialidades.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = especialidades.swift; sourceTree = "<group>"; };
+		1332CD972092F3A600211B66 /* redSocial.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = redSocial.entitlements; sourceTree = "<group>"; };
+		134B85272050E3B400F9303C /* yoDatos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yoDatos.swift; sourceTree = "<group>"; };
+		134B85292050E80C00F9303C /* idUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = idUser.swift; sourceTree = "<group>"; };
+		1385709020982A0D005403BD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		139B91EC2050F3B900D495A1 /* clinicasCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clinicasCell.swift; sourceTree = "<group>"; };
+		13A01382204B0685006E9609 /* DataServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataServices.swift; sourceTree = "<group>"; };
+		13A01384204B44BC006E9609 /* authVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = authVC.swift; sourceTree = "<group>"; };
+		13A01388204B45A6006E9609 /* InsertTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertTextField.swift; sourceTree = "<group>"; };
+		13A0138A204B4B96006E9609 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		13A0138C204B5C18006E9609 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		13ECA8BE204AEB4B00FB0986 /* redSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = redSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13ECA8C1204AEB4B00FB0986 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13ECA8C3204AEB4B00FB0986 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		13ECA8C5204AEB4B00FB0986 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		13ECA8C8204AEB4B00FB0986 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13ECA8CA204AEB4B00FB0986 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13ECA8CD204AEB4B00FB0986 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13ECA8CF204AEB4B00FB0986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13ECA8DD204AF1AE00FB0986 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		13F60991204DABBB00D69EBA /* clinicas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clinicas.swift; sourceTree = "<group>"; };
+		13F60993204E2C1600D69EBA /* yoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yoVC.swift; sourceTree = "<group>"; };
+		66E44154261F4667B2E7DC0E /* Pods-redSocial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-redSocial.release.xcconfig"; path = "Pods/Target Support Files/Pods-redSocial/Pods-redSocial.release.xcconfig"; sourceTree = "<group>"; };
+		9E6C4A42EE9E49879C58E1B8 /* Pods-redSocial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-redSocial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-redSocial/Pods-redSocial.debug.xcconfig"; sourceTree = "<group>"; };
+		B6DC542CBE79631B40FC74EC /* Pods_redSocial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_redSocial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13ECA8BB204AEB4B00FB0986 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9242BBA316D2BC6CE2489310 /* Pods_redSocial.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		139B91E62050EFAE00D495A1 /* vista tablas */ = {
+			isa = PBXGroup;
+			children = (
+				139B91EC2050F3B900D495A1 /* clinicasCell.swift */,
+				131FB2D5206C4E7600181458 /* reviewCell.swift */,
+				13149E18209ABC5A00B2A5D6 /* especialidadesCell.swift */,
+			);
+			path = "vista tablas";
+			sourceTree = "<group>";
+		};
+		13ECA8B5204AEB4B00FB0986 = {
+			isa = PBXGroup;
+			children = (
+				1385709020982A0D005403BD /* Default-568h@2x.png */,
+				13ECA8C0204AEB4B00FB0986 /* redSocial */,
+				13ECA8BF204AEB4B00FB0986 /* Products */,
+				32A16DA35DC6971A0B9C9C8E /* Pods */,
+				85B2AFF193AB50FF346A776E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		13ECA8BF204AEB4B00FB0986 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13ECA8BE204AEB4B00FB0986 /* redSocial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13ECA8C0204AEB4B00FB0986 /* redSocial */ = {
+			isa = PBXGroup;
+			children = (
+				1332CD972092F3A600211B66 /* redSocial.entitlements */,
+				139B91E62050EFAE00D495A1 /* vista tablas */,
+				13ECA8D8204AED8400FB0986 /* View */,
+				13ECA8D7204AED7D00FB0986 /* Model */,
+				13ECA8D6204AED7300FB0986 /* Extensions */,
+				13ECA8D5204AED6B00FB0986 /* Services */,
+				13ECA8DC204AED9E00FB0986 /* Controller */,
+				13ECA8C1204AEB4B00FB0986 /* AppDelegate.swift */,
+				13ECA8C7204AEB4B00FB0986 /* Main.storyboard */,
+				13ECA8CA204AEB4B00FB0986 /* Assets.xcassets */,
+				13ECA8CC204AEB4B00FB0986 /* LaunchScreen.storyboard */,
+				13ECA8CF204AEB4B00FB0986 /* Info.plist */,
+				13ECA8DD204AF1AE00FB0986 /* GoogleService-Info.plist */,
+			);
+			path = redSocial;
+			sourceTree = "<group>";
+		};
+		13ECA8D5204AED6B00FB0986 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				13A01382204B0685006E9609 /* DataServices.swift */,
+				13A0138C204B5C18006E9609 /* AuthService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		13ECA8D6204AED7300FB0986 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				13F60991204DABBB00D69EBA /* clinicas.swift */,
+				134B85272050E3B400F9303C /* yoDatos.swift */,
+				134B85292050E80C00F9303C /* idUser.swift */,
+				131FB2D7206C4F2500181458 /* reviews.swift */,
+				13149E1C209ABE9800B2A5D6 /* especialidad.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		13ECA8D7204AED7D00FB0986 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		13ECA8D8204AED8400FB0986 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				13A01388204B45A6006E9609 /* InsertTextField.swift */,
+				13A0138A204B4B96006E9609 /* ShadowView.swift */,
+				131FB2D1206956EE00181458 /* fondoBtnReviews.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		13ECA8DC204AED9E00FB0986 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				13ECA8C3204AEB4B00FB0986 /* FirstViewController.swift */,
+				13ECA8C5204AEB4B00FB0986 /* SecondViewController.swift */,
+				13A01384204B44BC006E9609 /* authVC.swift */,
+				130CC97A204BB151006151BD /* createdAccountVC.swift */,
+				13F60993204E2C1600D69EBA /* yoVC.swift */,
+				131FB2CF2064A44A00181458 /* clinicaVC.swift */,
+				131FB2D32069D8F100181458 /* reviewVC.swift */,
+				132313812086F05600A0E947 /* especialidades.swift */,
+				13149E14209ABAF800B2A5D6 /* especialidadesVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		32A16DA35DC6971A0B9C9C8E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E6C4A42EE9E49879C58E1B8 /* Pods-redSocial.debug.xcconfig */,
+				66E44154261F4667B2E7DC0E /* Pods-redSocial.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		85B2AFF193AB50FF346A776E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6DC542CBE79631B40FC74EC /* Pods_redSocial.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13ECA8BD204AEB4B00FB0986 /* redSocial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13ECA8D2204AEB4B00FB0986 /* Build configuration list for PBXNativeTarget "redSocial" */;
+			buildPhases = (
+				C7CD904D7285E1DFFD206015 /* [CP] Check Pods Manifest.lock */,
+				13ECA8BA204AEB4B00FB0986 /* Sources */,
+				13ECA8BB204AEB4B00FB0986 /* Frameworks */,
+				13ECA8BC204AEB4B00FB0986 /* Resources */,
+				3FD2DAA598F7547FFAE8DBF7 /* [CP] Embed Pods Frameworks */,
+				5BC59DFBD2C93F7CA717FF78 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = redSocial;
+			productName = redSocial;
+			productReference = 13ECA8BE204AEB4B00FB0986 /* redSocial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13ECA8B6204AEB4B00FB0986 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "misael rivera";
+				TargetAttributes = {
+					13ECA8BD204AEB4B00FB0986 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 13ECA8B9204AEB4B00FB0986 /* Build configuration list for PBXProject "redSocial" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13ECA8B5204AEB4B00FB0986;
+			productRefGroup = 13ECA8BF204AEB4B00FB0986 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13ECA8BD204AEB4B00FB0986 /* redSocial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13ECA8BC204AEB4B00FB0986 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13ECA8CE204AEB4B00FB0986 /* LaunchScreen.storyboard in Resources */,
+				13ECA8DE204AF1AE00FB0986 /* GoogleService-Info.plist in Resources */,
+				13ECA8CB204AEB4B00FB0986 /* Assets.xcassets in Resources */,
+				1385709120982A0D005403BD /* Default-568h@2x.png in Resources */,
+				13ECA8C9204AEB4B00FB0986 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3FD2DAA598F7547FFAE8DBF7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-redSocial/Pods-redSocial-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-redSocial/Pods-redSocial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BC59DFBD2C93F7CA717FF78 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-redSocial/Pods-redSocial-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-redSocial/Pods-redSocial-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7CD904D7285E1DFFD206015 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-redSocial-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13ECA8BA204AEB4B00FB0986 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A01389204B45A6006E9609 /* InsertTextField.swift in Sources */,
+				13A01385204B44BC006E9609 /* authVC.swift in Sources */,
+				13ECA8C6204AEB4B00FB0986 /* SecondViewController.swift in Sources */,
+				134B852A2050E80C00F9303C /* idUser.swift in Sources */,
+				13F60992204DABBB00D69EBA /* clinicas.swift in Sources */,
+				139B91ED2050F3B900D495A1 /* clinicasCell.swift in Sources */,
+				13149E1D209ABE9800B2A5D6 /* especialidad.swift in Sources */,
+				13A0138D204B5C18006E9609 /* AuthService.swift in Sources */,
+				132313822086F05600A0E947 /* especialidades.swift in Sources */,
+				13A0138B204B4B96006E9609 /* ShadowView.swift in Sources */,
+				13ECA8C2204AEB4B00FB0986 /* AppDelegate.swift in Sources */,
+				13F60994204E2C1600D69EBA /* yoVC.swift in Sources */,
+				13ECA8C4204AEB4B00FB0986 /* FirstViewController.swift in Sources */,
+				131FB2D8206C4F2500181458 /* reviews.swift in Sources */,
+				13A01383204B0685006E9609 /* DataServices.swift in Sources */,
+				131FB2D02064A44A00181458 /* clinicaVC.swift in Sources */,
+				130CC97B204BB151006151BD /* createdAccountVC.swift in Sources */,
+				134B85282050E3B400F9303C /* yoDatos.swift in Sources */,
+				131FB2D6206C4E7600181458 /* reviewCell.swift in Sources */,
+				131FB2D2206956EE00181458 /* fondoBtnReviews.swift in Sources */,
+				131FB2D42069D8F100181458 /* reviewVC.swift in Sources */,
+				13149E15209ABAF800B2A5D6 /* especialidadesVC.swift in Sources */,
+				13149E19209ABC5A00B2A5D6 /* especialidadesCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		13ECA8C7204AEB4B00FB0986 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13ECA8C8204AEB4B00FB0986 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13ECA8CC204AEB4B00FB0986 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13ECA8CD204AEB4B00FB0986 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13ECA8D0204AEB4B00FB0986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13ECA8D1204AEB4B00FB0986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13ECA8D3204AEB4B00FB0986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E6C4A42EE9E49879C58E1B8 /* Pods-redSocial.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 967D57A66Z;
+				INFOPLIST_FILE = redSocial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jr.redSocial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13ECA8D4204AEB4B00FB0986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66E44154261F4667B2E7DC0E /* Pods-redSocial.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 967D57A66Z;
+				INFOPLIST_FILE = redSocial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jr.redSocial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13ECA8B9204AEB4B00FB0986 /* Build configuration list for PBXProject "redSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13ECA8D0204AEB4B00FB0986 /* Debug */,
+				13ECA8D1204AEB4B00FB0986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13ECA8D2204AEB4B00FB0986 /* Build configuration list for PBXNativeTarget "redSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13ECA8D3204AEB4B00FB0986 /* Debug */,
+				13ECA8D4204AEB4B00FB0986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13ECA8B6204AEB4B00FB0986 /* Project object */;
+}
