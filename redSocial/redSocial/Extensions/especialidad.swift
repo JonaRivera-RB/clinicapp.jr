@@ -9,9 +9,11 @@
 import Foundation
 struct especialidad {
     private(set) public var especialidadNombre:String
+    private(set) public var idEspecialidad:String
     
-    init(especialidadNombre:String)
+    init(especialidadNombre:String,idEspecialidad:String)
     {
         self.especialidadNombre = especialidadNombre
+        self.idEspecialidad = idEspecialidad
     }
 }

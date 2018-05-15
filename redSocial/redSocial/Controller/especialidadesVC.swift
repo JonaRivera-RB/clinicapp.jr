@@ -15,9 +15,11 @@ class especialidadesVC: UIViewController,UITableViewDelegate,UITableViewDataSour
  
 
     @IBOutlet weak var especialidadesTableView:UITableView!
+    
     var nombreClinica: String!
     var idClinica: String!
     var listaEspecialidades = [especialidad]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         especialidadesTableView.delegate = self
@@ -32,9 +34,10 @@ class especialidadesVC: UIViewController,UITableViewDelegate,UITableViewDataSour
                 if let valores = item.value as? [String:AnyObject] {
                     let nombre = valores["especialidad"] as! String
                     let idClinicaa = valores["idClinica"] as! String
-                    print("id clinica\(self.idClinica)idEspecialidadClinica\(idClinicaa)")
+                    let idEspecialidad = valores["idEspecialidad"] as! String
+                    print("id clinica\(self.idClinica)idEspecialidadClinica\(idClinicaa) idESpecialidad\(idEspecialidad)")
                     if idClinicaa == self.idClinica {
-                        let especialidadess = especialidad(especialidadNombre: nombre)
+                        let especialidadess = especialidad(especialidadNombre: nombre, idEspecialidad: idEspecialidad)
                         print("especialidades->",especialidadess)
                         self.listaEspecialidades.append(especialidadess)
                     }
@@ -53,9 +56,25 @@ class especialidadesVC: UIViewController,UITableViewDelegate,UITableViewDataSour
         cell?.actualizarVista(especialidades: especi)
         return cell!
     }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let especialidad = listaEspecialidades[indexPath.row]
+        performSegue(withIdentifier: "doctoresVC", sender: especialidad)
+
+         }
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let doctoresvc = segue.destination as? doctoresVC {
+            doctoresvc.initEspecialidades(especialidades: sender as! especialidad)
+        }
+    }
     func initNombreClinica(nombre:String,idClinica:String)
     {
         nombreClinica = nombre
         self.idClinica = idClinica
+    }
+    
+    @IBAction func regresarBtn(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
     }
 }

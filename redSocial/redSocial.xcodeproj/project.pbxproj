@@ -26,6 +26,7 @@
 		13A01389204B45A6006E9609 /* InsertTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A01388204B45A6006E9609 /* InsertTextField.swift */; };
 		13A0138B204B4B96006E9609 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A0138A204B4B96006E9609 /* ShadowView.swift */; };
 		13A0138D204B5C18006E9609 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A0138C204B5C18006E9609 /* AuthService.swift */; };
+		13C70EAD20AB36F7003F4AC2 /* doctoresVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C70EAC20AB36F7003F4AC2 /* doctoresVC.swift */; };
 		13ECA8C2204AEB4B00FB0986 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ECA8C1204AEB4B00FB0986 /* AppDelegate.swift */; };
 		13ECA8C4204AEB4B00FB0986 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ECA8C3204AEB4B00FB0986 /* FirstViewController.swift */; };
 		13ECA8C6204AEB4B00FB0986 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ECA8C5204AEB4B00FB0986 /* SecondViewController.swift */; };
@@ -59,6 +60,7 @@
 		13A01388204B45A6006E9609 /* InsertTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertTextField.swift; sourceTree = "<group>"; };
 		13A0138A204B4B96006E9609 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		13A0138C204B5C18006E9609 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		13C70EAC20AB36F7003F4AC2 /* doctoresVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doctoresVC.swift; sourceTree = "<group>"; };
 		13ECA8BE204AEB4B00FB0986 /* redSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = redSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13ECA8C1204AEB4B00FB0986 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13ECA8C3204AEB4B00FB0986 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -186,6 +188,7 @@
 				131FB2D32069D8F100181458 /* reviewVC.swift */,
 				132313812086F05600A0E947 /* especialidades.swift */,
 				13149E14209ABAF800B2A5D6 /* especialidadesVC.swift */,
+				13C70EAC20AB36F7003F4AC2 /* doctoresVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -361,6 +364,7 @@
 				13F60992204DABBB00D69EBA /* clinicas.swift in Sources */,
 				139B91ED2050F3B900D495A1 /* clinicasCell.swift in Sources */,
 				13149E1D209ABE9800B2A5D6 /* especialidad.swift in Sources */,
+				13C70EAD20AB36F7003F4AC2 /* doctoresVC.swift in Sources */,
 				13A0138D204B5C18006E9609 /* AuthService.swift in Sources */,
 				132313822086F05600A0E947 /* especialidades.swift in Sources */,
 				13A0138B204B4B96006E9609 /* ShadowView.swift in Sources */,
